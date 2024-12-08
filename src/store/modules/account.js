@@ -12,20 +12,20 @@ const state = {
   accessToken: localStorage.getItem(LS_KEY_ACCESS_TOKEN),  // 这个不要修改，这个不要修改，这个不要修改。当前登录用户的 GitHub AccessToken
   auth: {
     proxy: 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token', // 这个不要修改，这个不要修改，这个不要修改。
-    clientID: '8fe09ec96875938b908d',   // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client ID
-    clientSecret: '46df51ccde6f3499c3b90861bba660fb1bcf15e4'  // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client Secret
+    clientID: 'Ov23liGqinzFOq4PX0c7',   // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client ID
+    clientSecret: '3dc2362cb49d2a8d2d7b27bac282f23ee3de5c62'  // 改成你在 https://github.com/settings/applications/new 新建的 OAuth application 的 Client Secret
   },
   gitHubUser: null,  // 这个不要修改，这个不要修改，这个不要修改。
-  gitHubUsername: 'bingoogolapple',  // 修改成你自己的 GitHub 账号
+  gitHubUsername: 'luckypoem',  // 修改成你自己的 GitHub 账号
   copyright: '2014 - 2018',  // 修改成你自己的
-  recordNumber: '蜀ICP备17023604号',  // 修改成你自己的备案编号，如果没有备案的话就设置为 null
-  repo: 'bingoogolapple/bingoogolapple.github.io',  // 记录 Issue 的仓库的全名「用户名/仓库名」
-  pageSize: 10,  // 博客列表每页显示多少条博客
-  showQQGroup: true,  // 如果要显示你自己的 QQ 群二维码图片的话这里配置成 true 并且替换「bga_issue_blog/static/img/qq-group.png」为你自己的 QQ 群二维码图片，否则配置成 false 即可
+  recordNumber: 'null',  // 修改成你自己的备案编号，如果没有备案的话就设置为 null
+  repo: 'luckypoem/bga_issue_blog',  // 记录 Issue 的仓库的全名「用户名/仓库名」
+  pageSize: 5,  // 博客列表每页显示多少条博客
+  showQQGroup: false,  // 如果要显示你自己的 QQ 群二维码图片的话这里配置成 true 并且替换「bga_issue_blog/static/img/qq-group.png」为你自己的 QQ 群二维码图片，否则配置成 false 即可
   thirdPartySite: [  // 配置你想在左上角展示的第三方站点信息
     {
       img: 'static/img/github.png',  // 第三方站点图标，存放在「bga_issue_blog/static/img」目录中
-      url: 'https://github.com/bingoogolapple'  // 第三方站点的 url
+      url: 'https://github.com/luckypoem'  // 第三方站点的 url
     },
     {
       img: 'static/img/git.png',
